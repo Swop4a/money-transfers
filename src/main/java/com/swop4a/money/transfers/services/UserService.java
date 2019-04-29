@@ -9,5 +9,10 @@ import java.util.List;
  */
 public interface UserService {
 
+	/**
+	 * Retrieve all existing accounts
+	 *
+	 * @return list of all accounts
+	 */
 	List<User> retrieveAll();
 }
